@@ -21,7 +21,7 @@ server.register(listTasks)
 
 
 
-const PORT = Number(process.env.PORT) || 3333
+const PORT = Number(process.env.PORT) || 93671
 server.listen({port: PORT}).then(() => {
   console.log('Server is running')
 })
